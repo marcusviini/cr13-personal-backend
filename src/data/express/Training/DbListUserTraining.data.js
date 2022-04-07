@@ -8,8 +8,9 @@ export class DbListUserTraining {
 
         const treinos = [
             {
-                description: 'Treino A',
-                resume: 'Treino focado em peito',
+                description: 'Treino A: Peito e triceps',
+                resume:
+                    'Treino focado na porcão superior do peitoral e triceps braquial',
                 steps: [
                     {
                         title: 'Aquecimento',
@@ -72,8 +73,9 @@ export class DbListUserTraining {
                 ],
             },
             {
-                description: 'Treino B',
-                resume: 'Treino focado em pernas',
+                description: 'Treino B: Peito e triceps',
+                resume:
+                    'Treino focado na porcão superior do peitoral e triceps braquial',
                 steps: [
                     {
                         title: 'Aquecimento',
@@ -136,8 +138,9 @@ export class DbListUserTraining {
                 ],
             },
             {
-                description: 'Treino C',
-                resume: 'Treino focado em costas',
+                description: 'Treino C: Peito e triceps',
+                resume:
+                    'Treino focado na porcão superior do peitoral e triceps braquial',
                 steps: [
                     {
                         title: 'Aquecimento',
@@ -200,8 +203,204 @@ export class DbListUserTraining {
                 ],
             },
             {
-                description: 'Treino D',
-                resume: 'Treino focado em abdômen',
+                description: 'Treino D: Peito e triceps',
+                resume:
+                    'Treino focado na porcão superior do peitoral e triceps braquial',
+                steps: [
+                    {
+                        title: 'Aquecimento',
+                        description:
+                            'bike, caminhada ou exercícios de mobilidade',
+                        series: '0',
+                        repeticoes: '0',
+                        intervalo: '0s',
+                        linkVideo: '',
+                    },
+                    {
+                        title: 'Avanço no smith',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Leg Press 45',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Agachamento com barra frontal',
+                        description:
+                            'bike, caminhada ou exercícios de mobilidade',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Leg Press horizontal',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Mesa flexora',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Elevação pélvica unilateral',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                ],
+            },
+            {
+                description: 'Treino E: Peito e triceps',
+                resume:
+                    'Treino focado na porcão superior do peitoral e triceps braquial',
+                steps: [
+                    {
+                        title: 'Aquecimento',
+                        description:
+                            'bike, caminhada ou exercícios de mobilidade',
+                        series: '0',
+                        repeticoes: '0',
+                        intervalo: '0s',
+                        linkVideo: '',
+                    },
+                    {
+                        title: 'Avanço no smith',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Leg Press 45',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Agachamento com barra frontal',
+                        description:
+                            'bike, caminhada ou exercícios de mobilidade',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Leg Press horizontal',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Mesa flexora',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Elevação pélvica unilateral',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                ],
+            },
+            {
+                description: 'Treino F: Peito e triceps',
+                resume:
+                    'Treino focado na porcão superior do peitoral e triceps braquial',
+                steps: [
+                    {
+                        title: 'Aquecimento',
+                        description:
+                            'bike, caminhada ou exercícios de mobilidade',
+                        series: '0',
+                        repeticoes: '0',
+                        intervalo: '0s',
+                        linkVideo: '',
+                    },
+                    {
+                        title: 'Avanço no smith',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Leg Press 45',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Agachamento com barra frontal',
+                        description:
+                            'bike, caminhada ou exercícios de mobilidade',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Leg Press horizontal',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Mesa flexora',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                    {
+                        title: 'Elevação pélvica unilateral',
+                        description: '',
+                        series: '4',
+                        repeticoes: '12-15',
+                        intervalo: '60s',
+                        linkVideo: 'http://',
+                    },
+                ],
+            },
+            {
+                description: 'Treino G: Peito e triceps',
+                resume:
+                    'Treino focado na porcão superior do peitoral e triceps braquial',
                 steps: [
                     {
                         title: 'Aquecimento',
