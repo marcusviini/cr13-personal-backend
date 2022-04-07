@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const Cliente = new mongoose.Schema(
+const User = new mongoose.Schema(
     {
         nome: {
             type: String,
@@ -30,9 +30,14 @@ const Cliente = new mongoose.Schema(
             type: String,
             required: true,
         },
+        password_reset_token: {
+            type: String,
+            required: false,
+        },
     },
     {
         timestamps: true,
     }
 );
-export default new mongoose.model('Cliente', Cliente);
+
+export default new mongoose.model('User', User);

@@ -1,12 +1,12 @@
-export class CreateClienteController {
-    constructor({ dbCreateCliente }) {
-        this.dbCreateCliente = dbCreateCliente;
+export class ListUserTrainingController {
+    constructor({ dbListUserTraining }) {
+        this.dbListUserTraining = dbListUserTraining;
     }
 
     async handle(httpRequest) {
         try {
-            const response = await this.dbCreateCliente.execute(
-                httpRequest.body
+            const response = await this.dbListUserTraining.execute(
+                httpRequest.headers
             );
 
             if (response.error) {
@@ -19,10 +19,11 @@ export class CreateClienteController {
             return {
                 status: 200,
                 data: {
-                    message: response.message,
+                    treinos: response.treinos,
                 },
             };
         } catch (error) {
+            console.log(error);
             return {
                 status: 500,
                 data:

@@ -1,9 +1,11 @@
 import * as Yup from 'yup';
 
-export const FindExercicioValidator = async (req, res, next) => {
+export const findExercicioValidator = async (req, res, next) => {
     try {
         const Schema = Yup.object().shape({
-            nome: Yup.string().required(),
+            nome: Yup.string().required(
+                'Por favor informe o nome do exercício'
+            ),
         });
 
         await Schema.validate(req.headers, { abortEarly: false });
@@ -11,8 +13,7 @@ export const FindExercicioValidator = async (req, res, next) => {
         return next();
     } catch (e) {
         return res.status(400).json({
-            error: 'Erro na validação',
-            messages: e.errors,
+            error: e.errors[0],
         });
     }
 };

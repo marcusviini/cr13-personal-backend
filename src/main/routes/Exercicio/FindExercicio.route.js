@@ -3,7 +3,7 @@ import { adapRoute } from '../../adapter/express.adapter';
 import { DbFindExercicio } from '../../../data';
 import { FindExercicioController } from '../../../presentation/controllers';
 import { ExercicioRepository } from '../../../infra/database/repositories';
-import { FindExercicioValidator } from '../../../infra/validators';
+import { findExercicioValidator } from '../../../infra/validators';
 
 const routes = Router();
 
@@ -16,7 +16,7 @@ const findExercicioController = () => {
 
 routes.get(
     '/exercicio',
-    FindExercicioValidator,
+    findExercicioValidator,
     adapRoute(findExercicioController())
 );
 
